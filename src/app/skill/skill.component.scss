@@ -1,0 +1,88 @@
+.maincontainer {
+    background: linear-gradient(to bottom, #57059e, #4a00e0);
+    height: calc(100vh - 86px);
+}
+
+.picture {
+    width: 39px;
+    position: relative;
+    top: 6px;
+}
+
+.text {
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: antiquewhite;
+    position: relative;
+    top: 20px;
+}
+
+.text1 {
+    color: yellow;
+    position: relative;
+    display: contents;
+}
+
+.htmlicon {
+    width: 50px;
+    padding: 35px;
+}
+
+
+
+.iconset {
+    box-sizing: content-box;
+    width: 70%;
+    margin: auto;
+    height: 75%;
+    border: 0px solid #9100ff;
+    border-radius: 22px;
+    background-color: #2b0349;
+    position: relative;
+    top: 55px;
+
+}
+
+.iconset1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.figure {
+    width: 17%;
+}
+
+.captionhtml {
+    color: antiquewhite;
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.icon {
+    border-radius: 10px;
+    box-shadow: 0 0px 10px 3px;
+    background: rgba(2, 2, 41, 0.9);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 33px;
+    text-align: center;
+}
+
+// @media screen and (min-width: 480px) and (max-device-width: 600px) {
+//     .maincontainer {
+//         background: lightgreen;
+//     }
+// }

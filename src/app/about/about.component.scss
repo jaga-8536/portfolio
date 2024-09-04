@@ -1,0 +1,80 @@
+.picture{
+    
+    height: 390px;
+    box-shadow: 1px 1px 10px 1px;
+    border-radius: 5%;
+    position: absolute;
+    top: 31%;
+    left: 22%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 1s;
+}
+.picture:hover {
+    filter: unset;
+    transform: rotate(5deg);
+}
+.logo{
+    width: 31px;
+    position: relative;
+        top: 3px}
+.about{
+    position: absolute;
+    bottom: 73%;
+    right:53%;
+    font-size: family;
+    font-family: system-ui;
+    font-size: larger;
+}
+.text{
+    position: absolute;
+    top: 25%;
+    left: 107%;
+    font-size: family;
+    font-family: system-ui;
+    color: #4b078b;
+    
+}
+.maintext{
+    width: 87%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.text1{
+    font-family: system-ui;
+    text-align: left;
+    position: absolute;
+    left: 44%;
+    margin: 73px;
+    font-size: 18px;
+}
+    
+.email{
+    color: rgb(70, 59, 167);
+}
+
+.button{
+    background-color: rgba(7, 4, 170, 0.9607843137);
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 0px;
+    border-radius: 7px;
+    height: 45px;
+    width: 154px;
+    border: darkblue;
+    align-content: center;
+    cursor: pointer;
+
+}
+.arrow{
+    height: 16px;
+    position: absolute;
+    bottom: 14px;
+    left: 123px;
+}
+
+
